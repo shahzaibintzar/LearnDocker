@@ -1,0 +1,26 @@
+create dockerfile =>>>>> touch dockerfile
+
+create a new image =>>>>>>>>> docker build -t basic-app .
+
+check all images =>>>>>> docker images
+
+delete one image =>>>> docker image rm imageName
+
+delete a usAble  image =>>>> docker image rm imageName -f
+
+check all container =>>>>>> docker ps -a
+
+delete one container =>>>> docker container rm containerName
+
+delete container is running form =>>>>>> docker container rm containerName -f
+
+delete All images and container =>>>>>>>>  docker system prune -a
+                        y/N
+
+create a new image in version =>>>>>>>>> docker build -t basic-app:versionName .
+
+run container with in command =>>>>>>>> docker run --name containerName -p 4000:4000 imageName:versionName
+
+create container and valume using command =>>>> docker run --name containerName -p 4000:4000 --rm -v \Users\SHAH ZAIB\Desktop\docker-app:/app imageName
+
+run compose file =>>> docker compose up
