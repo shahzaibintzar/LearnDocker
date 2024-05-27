@@ -24,3 +24,8 @@ run container with in command =>>>>>>>> docker run --name containerName -p 4000:
 create container and valume using command =>>>> docker run --name containerName -p 4000:4000 --rm -v \Users\SHAH ZAIB\Desktop\docker-app:/app imageName
 
 run compose file =>>> docker compose up
+
+
+
+
+create image in live docker play hub =>>>> docker build --platform linux/amd64 -t YourRepositoryName .
